@@ -491,7 +491,9 @@ body {
           display: flex;
           justify-content: space-around;
           flex-flow: row wrap;
-          list-style: none; }
+          list-style: none;
+          margin: 0;
+          padding: 0; }
           body section .portfolio .portfolio_content .portfolio_content_nav ul li a {
             text-decoration: none;
             color: #fc635e; }
@@ -972,6 +974,8 @@ body {
     width: 300px; }
   body section .marketing .container .marketing_pictures img {
     width: 300px; }
+  body section .portfolio .container .portfolio_content .portfolio_content_nav ul {
+    font-size: 12px; }
   body section .quote .quote_content .container .owl-carousel .item .quote_item_container .quote_content_text {
     width: 80%;
     text-align: center; }
