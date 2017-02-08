@@ -1,0 +1,1098 @@
+$baseRed: #fc635e;
+
+
+body
+	margin: 0;
+	padding: 0;
+	header
+		min-height: 760px;
+		background-image: url(../img/bg-home.png);
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		nav 
+			background-color: #252121;
+			position: fixed;
+			width: 100%;
+			height: 70px;
+			display: flex;
+			justify-content: space-around;
+			align-content: center;
+			align-items: center;
+			z-index: 1000;
+			#humburgerIcon
+				display: none;
+			ul
+				display: flex;
+				justify-content: flex-end;
+				flex-flow: row wrap;
+				#visibleList 
+				    display: none;
+				    width: 25px;
+				    height: 25px;
+				    padding: 10px;
+				li 
+					list-style: none; 
+					margin: 10px;
+					font-size: 18px;
+					a
+						text-decoration: none;
+						color: white;
+						padding-bottom: 3px;
+						&:hover
+							color: $baseRed;
+							border-bottom: 3px solid $baseRed;
+		.container
+			.content
+				align-self: flex-end;
+				text-align: center;
+				h1
+					font-size: 45px;
+					color: white;
+					span 
+						color: $baseRed;
+					&:before
+						content: url(../img/rectHome.png);
+						position: relative;
+						bottom: 10px;
+						right: 5px;
+						height: 5px;
+					&:after
+						content: url(../img/rectHome.png);
+						position: relative;
+						bottom: 10px;
+						left: 5px;
+						height: 5px;
+				h2
+					color: white;
+						
+			
+
+
+	section
+		.container	
+			.services
+				width: 100%;
+				min-height: 580px;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+				.services_header
+					flex-basis: 100%;
+					text-align: center;
+					h2
+						display: inline-block;
+						font-size: 30px;
+						color: #868686;
+						border-bottom: 2px solid #868686;
+						span
+							color: $baseRed;
+					h3
+						display: block;
+						width: 500px;
+						margin: auto;
+						color: #868686;
+				.services_content
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: center;
+					figure
+						margin: 10px;
+						width: 200px;
+						text-align: center ;
+						color: #868686;
+
+	section
+		.expand
+			min-height: 680px;
+			background-image: url(../img/bg-expand.png);
+			background-attachment: fixed;
+			background-position: center;
+			background-size: cover;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center; 
+			align-items: flex-end;
+			.container
+				.expand_content
+					text-align: center;
+					h1
+						font-size: 45px;
+						color: white;
+						span 
+							color: $baseRed;
+	
+	section
+		.our_process
+			min-height: 840px;
+			display: flex;
+			justify-content: center;
+			flex-flow: row wrap;
+			.our_process_header
+				text-align: center;
+				max-width: 500px;
+				color: #868686;
+				flex-basis: 100%; 
+				h2
+					display: inline-block;
+					font-size: 30px;
+					color: #868686;
+					border-bottom: 2px solid #868686;
+					span
+						color: $baseRed;
+				p 
+					font-size: 20px;
+					max-width: 500px;
+					margin: auto;
+
+			.our_process_steps
+				width: 735px;
+				.step1
+					width: 160px;
+					height: 94px;
+					top: 190px;
+					position: relative;
+					border-left: 1px solid grey;
+					border-right: 3px solid $baseRed;
+					color: #868686;
+					&:before
+						content: url(../img/elipse_red.png);
+						position: absolute;
+						top: -20px;
+						left: -20px;
+					&:after
+						content: url(../img/forma1.png);
+						position: absolute;
+						top: -14px;
+						left: -11px;
+					h1 
+						width: 100%;
+						display: inline-block;
+						position: absolute;
+						text-align: center;
+						top: -20px;
+						span
+							color: $baseRed;
+					p 
+						width: 100%;
+						display: inline-block;
+						position: absolute;
+						text-align: center;
+						top: 20px;
+
+					.rect1
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						transform: rotate(60deg);
+						border-left: 3px solid $baseRed;
+						border-right: 1px solid grey;
+						z-index: -1;
+					.rect2
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						transform: rotate(-60deg);
+						border-left: 1px solid grey;
+						border-right: 3px solid $baseRed;
+						z-index: -2;
+				.step_picture
+					width: 260px;
+					height: 151px;
+					position: relative;
+					top: 265px;
+					left: 31px;
+					border-left: 1px solid grey;
+					border-right: 1px solid grey;
+					z-index: 1;
+					h1 
+						width: 100%;
+						display: inline-block;
+						position: absolute;
+						text-align: center;
+						top: -20px;
+					p 
+						width: 100%;
+						display: inline-block;
+						position: absolute;
+						text-align: center;
+						top: 20px;
+					.step_bg_picture
+						width: 100%;
+						height: 200%;
+						position: absolute;
+						background-image: url(../img/step_picture.png);
+						background-position: center;
+						z-index: 11;
+						top: -75px; 
+
+					.rect1
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						transform: rotate(60deg);
+						border-left: 1px solid grey;
+						border-right: 1px solid grey;
+						z-index: -1;
+					.rect2
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						transform: rotate(-60deg);
+						border-left: 1px solid grey;
+						border-right: 1px solid grey;
+						z-index: -2;
+					.rect3
+						width: 100%;
+						height: 53%;
+						position: absolute;
+						transform: rotate(-60deg);
+						border-left: 1px solid grey;
+						border-right: 3px solid $baseRed;
+						z-index: 22;
+						top: 18px;
+						left: -34px;
+				.step2
+					width: 160px;
+					height: 95px;
+					position: relative;
+					left: 231px;
+					top: -14px;
+					border-left: 3px solid $baseRed;
+					border-right: 1px solid grey;
+					color: #868686;
+					&:before
+						content: url(../img/elipse_red.png);
+						position: absolute;
+						top: -20px;
+						left: -20px;
+					&:after
+						content: url(../img/forma2.png);
+						position: absolute;
+						top: -11px;
+						left: -13px;
+					h1 
+						width: 100%;
+						display: inline-block;
+						position: absolute;
+						text-align: center;
+						top: -20px;
+						span
+							color: $baseRed;
+					p 
+						width: 100%;
+						display: inline-block;
+						position: absolute;
+						text-align: center;
+						top: 20px;
+			
+					.rect1
+						width: 100%;
+						height: 98%;
+						position: absolute;
+						transform: rotate(60deg);
+						border-left: 3px solid $baseRed;
+						border-right: 1px solid grey;
+						z-index: -1;
+						top: 1px;
+						left: -2px;
+					.rect2
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						transform: rotate(-60deg);
+						border-left: 1px solid grey;
+						border-right: 1px solid grey;
+						z-index: -2;
+				.step3
+					width: 160px;
+					height: 95px;
+					position: relative;
+					left: 313px;
+					top: -248px;
+					border-left: 3px solid $baseRed;
+					border-right: 3px solid $baseRed;
+					color: #868686;
+					&:before
+						content: url(../img/elipse_red.png);
+						position: absolute;
+						top: -20px;
+						left: -20px;
+					&:after
+						content: url(../img/forma3.png);
+						position: absolute;
+						top: -13px;
+						left: -12px;
+					h1 
+						width: 100%;
+						display: inline-block;
+						position: absolute;
+						text-align: center;
+						top: -20px;
+						span
+							color: $baseRed;
+					p 
+						width: 100%;
+						display: inline-block;
+						position: absolute;
+						text-align: center;
+						top: 20px;
+			
+					.rect1
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						transform: rotate(60deg);
+						border-left: 3px solid $baseRed;
+						border-right: 1px solid grey;
+						z-index: -1;
+					.rect2
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						transform: rotate(-60deg);
+						border-left: 1px solid grey;
+						border-right: 3px solid $baseRed;
+						z-index: -2;
+				.step4
+					width: 260px;
+					height: 151px;
+					position: relative;
+					left: 476px;
+					top: -248px;
+					border-left: 1px solid grey;
+					border-right: 3px solid $baseRed;
+					color: #868686;
+					&:before
+						content: url(../img/elipse_red.png);
+						position: absolute;
+						top: -20px;
+						left: -20px;
+					&:after
+						content: url(../img/forma4.png);
+						position: absolute;
+						top: -12px;
+						left: -13px;
+					h1 
+						width: 100%;
+						display: inline-block;
+						position: absolute;
+						text-align: center;
+						top: -20px;
+						span
+							color: $baseRed;
+					p 
+						width: 99%;
+						display: inline-block;
+						position: absolute;
+						text-align: center;
+						margin-top: 8px;
+						top: 20px;
+			
+					.rect1
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						transform: rotate(60deg);
+						border-left: 3px solid $baseRed;
+						border-right: 3px solid $baseRed;
+						z-index: -1;
+					.rect2
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						transform: rotate(-60deg);
+						border-left: 1px solid grey;
+						border-right: 3px solid $baseRed;
+						z-index: -2;
+						&:before
+							content: url(../img/elipse_red.png);
+							position: absolute;
+							top: 130px;
+							left: -20px;
+						&:after
+							content: url(../img/forma5.png);
+							position: absolute;
+							top: 140px;
+							left: -10px;
+			.our_process_steps_responsive
+				display: none;
+	section
+		.section_we_do
+			min-height: 575px;
+			background-color: #f2f2f2;
+			display: flex;
+			justify-content: center;
+			flex-flow: row wrap;
+			color: #868686;
+			.container
+				.we_do_header
+					flex-basis: 100%;
+					text-align: center;
+					h2
+						border-bottom: 1px solid grey;
+						display: inline-block;
+						padding-bottom: 5px;
+						span 
+							color: $baseRed;
+				.we_do_content
+					display: flex;
+					justify-content: space-around;
+					flex-flow: row wrap;
+					.we_do_content_text
+						flex-basis: 30%;
+						h2 
+							&:before
+								content: '';
+								border-right: 13px solid $baseRed;
+								position: relative;
+								margin-right: 5px;
+					.we_do_content_pictures
+						flex-basis: 520px;
+						position: relative;
+						height: 308px;
+						#display
+							position: absolute;
+							left: 80px;
+						#mac
+							position: absolute;
+							bottom: 0;
+						#ipad
+							position: absolute;
+							bottom: 0;
+							left: 380px;
+
+		.advertising
+			min-height: 575px;
+			display: flex;
+			justify-content: space-around;
+			flex-flow: row wrap;
+			align-items: flex-end;
+			color: #868686;
+			.advertising_picture
+				flex-basis: 40%;
+			.advertising_text
+				flex-basis: 30%;
+				text-align: right;
+				h2
+					&:after
+						content: '';
+						border-right: 13px solid $baseRed;
+						position: relative;
+						margin-left: 5px;
+		.marketing
+			min-height: 575px;
+			background-color: #f2f2f2;
+			display: flex;
+			justify-content: space-around;
+			align-items: flex-end;
+			flex-flow: row wrap;
+			color: #868686;
+			.marketing_text
+				flex-basis: 30%;
+				h2 
+					&:before
+						content: '';
+						border-right: 13px solid $baseRed;
+						position: relative;
+						margin-right: 5px;
+			.marketing_pictures
+				flex-basis: 40%;
+
+	section
+		.portfolio
+			min-height: 860px;
+			color: #868686;
+			.portfolio_header
+				text-align: center;
+				flex-basis: 100%;
+			.portfolio_content
+				flex-basis: 100%;
+				text-align: center;
+				.portfolio_content_nav
+					padding: 10px 0;
+					border-top: 1px solid grey;
+					border-bottom: 1px solid grey;
+					ul
+						display: flex;
+						justify-content: space-around;
+						flex-flow: row wrap;
+						list-style: none;
+						li 
+							a
+								text-decoration: none;
+								color: $baseRed;
+								&:hover
+									color: grey;
+				.portfolio_content_pictures
+					padding: 25px 0;
+					display: flex;
+					justify-content: center;
+					flex-flow: row wrap;
+					.portfolio_container1
+						width: 100%;
+						display: flex;
+						.portfolio_picture1
+							flex-basis: 49%;
+							margin: 5px;
+							height: 198px;
+							background-image: url(../img/portfolio_picture1.png);
+							background-size: cover;
+							background-position: center;
+						.portfolio_picture2
+							flex-basis: 24%;
+							margin: 5px;
+							height: 198px;
+							background-image: url(../img/portfolio_picture2.png);
+							background-size: cover;
+							background-position: center;
+						.portfolio_picture3
+							flex-basis: 24%;
+							margin: 5px;
+							height: 198px;
+							background-image: url(../img/portfolio_picture3.png);
+							background-size: cover;
+							background-position: center;
+					.portfolio_container2
+						width: 100%;
+						display: flex;
+						.portfolio_picture4
+							flex-basis: 24%;
+							margin: 5px;
+							height: 198px;
+							background-image: url(../img/portfolio_picture4.png);
+							background-size: cover;
+							background-position: center;
+						.portfolio_picture5
+							flex-basis: 24%;
+							margin: 5px;
+							height: 198px;
+							background-image: url(../img/portfolio_picture5.png);
+							background-size: cover;
+							background-position: center;
+						.portfolio_picture6
+							flex-basis: 49%;
+							margin: 5px;
+							height: 198px;
+							background-image: url(../img/portfolio_picture6.png);
+							background-size: cover;
+							background-position: center;
+
+	section
+		.our_team
+			min-height: 560px;
+			background-color: #f2f2f2;
+			color: #868686;
+			.our_team_header
+				flex-basis: 100%;
+				text-align: center;
+				h2
+					padding-bottom: 5px;
+					border-bottom: 1px solid grey;
+					display: inline-block;
+				span
+					color: $baseRed;
+			.owl-carousel
+				.item
+					figure
+						margin: auto;
+						max-width: 190px;
+						text-align: center;
+						figcaption
+							h2
+								span
+									color: $baseRed;
+							.social_container
+								.social
+									border-radius: 50%;
+									&:hover
+										background-color: $baseRed;
+										cursor: pointer;
+									a 
+										display: block;
+										width: 30px;
+										height: 40px;
+										border-radius: 50%;
+		.quote
+			min-height: 560px;
+			color: #868686;
+			.quote_icon
+				width: 75px;
+				margin: auto;
+				padding-top: 50px;
+			.quote_content
+				.container	
+					.owl-carousel
+						.item
+							.quote_item_container
+								display: flex;
+								flex-flow: row wrap;
+								justify-content: space-around;
+								align-items: center;	
+								margin: 40px 0;
+								.quote_content_text
+									display: block;
+									width: 30%;
+								.quote_content_picture
+									padding: 20px 0;
+								.quote_content_name
+									width: 30%;
+									text-align: right;
+									h2
+										span
+											color: $baseRed;
+							
+	footer
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 250px;
+		background-image: url(../img/bg-footer.png);
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+
+
+
+
+.logo
+	&:hover
+		cursor: pointer;
+
+.button_transparent
+	width: 170px;
+	height: 55px;
+	border-radius: 5px;
+	background-color: transparent;
+	color: $baseRed;
+	outline: none;
+	font-size: 18px;
+	&:hover
+		border-color: $baseRed;	
+.button_base
+	width: 185px;
+	height: 55px;
+	border-radius: 5px;
+	background-color: $baseRed;;
+	color: white;
+	outline: none;
+	font-size: 18px;
+	&:hover
+		background-color: grey;;
+		border-color: black;
+		cursor: pointer;
+
+.navIcon
+	align-self: flex-end;
+	text-align: center;
+	flex-basis: 100%;
+	padding-bottom: 20px;
+	color: $baseRed;
+	i 
+		&:hover
+			color: white;
+			cursor: pointer;
+
+.navIcon_reverse
+	align-self: flex-end;
+	text-align: center;
+	flex-basis: 100%;
+	padding-bottom: 20px;
+	color: $baseRed;
+	i	
+		&:hover
+			color: black;
+			cursor: pointer;
+
+.container
+	max-width: 1000px;
+	padding: 0 20px;
+	min-height: inherit;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	align-items: flex-end;
+
+.social_container
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+.social
+	width: 40px;
+	height: 40px; 
+
+.twitter
+	background-image: url(../img/social1.png);
+	background-position: center;
+	background-size: 100%;
+
+.facebook
+	background-image: url(../img/social2.png);
+	background-position: center;
+	background-size: 100%;
+
+.linked
+	background-image: url(../img/social3.png);
+	background-position: center;
+	background-size: 100%;
+
+
+.owl-theme .owl-nav [class*='owl-']
+	width: 30px;
+	height: 30px;
+	padding-top: 14px;
+	padding-bottom: 0;
+	border-radius: 50%;
+	background-color: $baseRed;
+				
+
+.anchor
+    position: absolute;
+    margin-top: -70px;
+
+
+@media all and (max-width: 1000px)
+	body
+		header
+			nav 
+				justify-content: space-between;
+				.logo
+					float: left;
+					margin-left: 10%;
+				#humburgerIcon
+					width: 50px;
+					height: 35px;
+					margin-right: 50px
+					display: block;
+				ul
+					min-width: 40px;
+					padding: 0;
+					display: none;
+					position: absolute;
+					right: 0;
+					top: 70px;
+					float: right;
+					margin: 0 0 10% 0;
+					background-color: #252121;
+					.invisibleList
+						top: 10px;
+					#visibleList
+						display: block;
+						float: right;
+						width: 50px;
+						height: 40px;
+						padding: 10px;;
+						margin: 0;
+			.container
+				.content
+					h1
+						font-size: 35px;
+					h2
+						font-size: 20px;
+		section
+			.container
+				.services
+					.services_content
+						figure
+							flex-basis: 40%;
+		
+		section
+			.section_we_do
+				.container
+					.we_do_content
+						.we_do_content_text
+							flex-basis: 70%;
+							text-align: center;
+							padding: 10px;
+			.advertising
+				.container
+					.advertising_text
+						flex-basis: 70%;
+						text-align: center;
+						padding: 10px;
+					.advertising_picture
+						padding-top: 15px;
+			.marketing
+				.marketing_text
+					flex-basis: 70%;
+					text-align: center;
+					padding: 10px;
+
+	.navIcon_reverse
+		padding-top: 20px;
+
+
+
+
+@media all and (max-width: 800px)
+	body
+		header
+			.container
+				.content
+					h1
+						font-size: 35px;
+						&:before
+							content: none;
+
+						&:after
+							content: none;
+					h2
+						font-size: 20px;
+		section
+			.our_process
+				.container
+					.our_process_steps
+						display: none;
+					.our_process_steps_responsive
+						display: block;
+						padding: 50px 0;
+						width: 100%;
+						height: 600px;
+						.step1
+							width: 200px;
+							height: 100px;
+							left: 50%;
+							margin-left: -100px;
+							position: relative;
+							border: 3px solid $baseRed;
+							border-bottom: none;
+							color: #868686;
+							&:before
+								content: url(../img/elipse_red.png);
+								position: absolute;
+								top: -20px;
+								left: -20px;
+							&:after
+								content: url(../img/forma1.png);
+								position: absolute;
+								top: -14px;
+								left: -11px;
+							h1 
+								width: 100%;
+								display: inline-block;
+								position: absolute;
+								text-align: center;
+								top: -20px;
+								span
+									color: $baseRed;
+							p 
+								width: 100%;
+								display: inline-block;
+								position: absolute;
+								text-align: center;
+								top: 20px;
+						.step_picture
+							width: 260px;
+							height: 150px;
+							position: relative;
+							left: 50%;
+							margin-left: -130px;
+							border: 3px solid $baseRed;
+							overflow: hidden;
+							z-index: 1;
+							h1 
+								width: 100%;
+								display: inline-block;
+								position: absolute;
+								text-align: center;
+								top: -20px;
+							p 
+								width: 100%;
+								display: inline-block;
+								position: absolute;
+								text-align: center;
+								top: 20px;
+							.step_bg_picture
+								width: 100%;
+								height: 200%;
+								position: absolute;
+								background-image: url(../img/step_picture.png);
+								background-position: center;
+								z-index: -12;
+								top: -75px; 
+						.step2
+							width: 200px;
+							height: 100px;
+							position: relative;
+							left: 50%;
+							margin-left: -100px;
+							border: 3px solid $baseRed;
+							border-top: none;
+							border-bottom: none;
+							color: #868686;
+							&:before
+								content: url(../img/elipse_red.png);
+								position: absolute;
+								z-index: 11;
+								top: -20px;
+								left: -20px;
+							&:after
+								content: url(../img/forma2.png);
+								position: absolute;
+								z-index: 12;
+								top: -11px;
+								left: -13px;
+							h1 
+								width: 100%;
+								display: inline-block;
+								position: absolute;
+								text-align: center;
+								top: -20px;
+								span
+									color: $baseRed;
+							p 
+								width: 100%;
+								display: inline-block;
+								position: absolute;
+								text-align: center;
+								top: 20px;
+						.step3
+							width: 200px;
+							height: 95px;
+							position: relative;
+							left: 50%;
+							margin-left: -100px;
+							border: 3px solid $baseRed;
+							border-bottom: none;
+							color: #868686;
+							&:before
+								content: url(../img/elipse_red.png);
+								position: absolute;
+								top: -20px;
+								left: -20px;
+							&:after
+								content: url(../img/forma3.png);
+								position: absolute;
+								top: -13px;
+								left: -12px;
+							h1 
+								width: 100%;
+								display: inline-block;
+								position: absolute;
+								text-align: center;
+								top: -20px;
+								span
+									color: $baseRed;
+							p 
+								width: 100%;
+								display: inline-block;
+								position: absolute;
+								text-align: center;
+								top: 20px;
+						.step4
+							width: 300px;
+							height: 151px;
+							position: relative;
+							left: 50%;
+							margin-left: -150px;
+							border: 3px solid $baseRed;
+							color: #868686;
+							&:before
+								content: url(../img/elipse_red.png);
+								position: absolute;
+								top: -20px;
+								left: -20px;
+							&:after
+								content: url(../img/forma4.png);
+								position: absolute;
+								top: -12px;
+								left: -13px;
+							h1 
+								width: 100%;
+								display: inline-block;
+								position: absolute;
+								text-align: center;
+								top: -20px;
+								span
+									color: $baseRed;
+							p 
+								width: 99%;
+								display: inline-block;
+								position: absolute;
+								text-align: center;
+								margin-top: 8px;
+								top: 20px;
+							&:before
+								content: url(../img/elipse_red.png);
+								position: absolute;
+								top: -20px;
+								left: -20px;
+							&:after
+								content: url(../img/forma5.png);
+								position: absolute;
+								top: -11px;
+								left: -10px;
+
+@media all and (max-width: 600px)
+	body
+		section
+			.container
+				.services
+					.services_header
+						h2
+							font-size: 23px;
+						h3
+							font-size: 16px;
+							width: 310px;
+		section
+			.section_we_do
+				.container
+					.we_do_content
+						.we_do_content_pictures
+							flex-basis: 340px;
+							#display
+								left: 50%;
+								margin-left: -150px;
+								width: 300px;
+								bottom: 0;
+							#mac	
+								left: 0;
+								width: 200px;
+							#ipad
+								left: 210px;
+								width: 90px;
+			.advertising
+				.container
+					.advertising_picture
+						img
+							width: 300px;
+			.marketing
+				.container
+					.marketing_pictures
+						img
+							width: 300px;
+		section
+			.quote
+				.quote_content
+					.container
+						.owl-carousel
+							.item
+								.quote_item_container
+									.quote_content_text
+										width: 80%;
+										text-align: center;
+									.quote_content_name
+										width: 80%;
+										text-align: center;
+.container
+	padding: 0 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

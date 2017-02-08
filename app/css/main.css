@@ -1,0 +1,983 @@
+body {
+  margin: 0;
+  padding: 0; }
+  body header {
+    min-height: 760px;
+    background-image: url(../img/bg-home.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+    body header nav {
+      background-color: #252121;
+      position: fixed;
+      width: 100%;
+      height: 70px;
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+      align-items: center;
+      z-index: 1000; }
+      body header nav #humburgerIcon {
+        display: none; }
+      body header nav ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: row wrap; }
+        body header nav ul #visibleList {
+          display: none;
+          width: 25px;
+          height: 25px;
+          padding: 10px; }
+        body header nav ul li {
+          list-style: none;
+          margin: 10px;
+          font-size: 18px; }
+          body header nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding-bottom: 3px; }
+            body header nav ul li a:hover {
+              color: #fc635e;
+              border-bottom: 3px solid #fc635e; }
+    body header .container .content {
+      align-self: flex-end;
+      text-align: center; }
+      body header .container .content h1 {
+        font-size: 45px;
+        color: white; }
+        body header .container .content h1 span {
+          color: #fc635e; }
+        body header .container .content h1:before {
+          content: url(../img/rectHome.png);
+          position: relative;
+          bottom: 10px;
+          right: 5px;
+          height: 5px; }
+        body header .container .content h1:after {
+          content: url(../img/rectHome.png);
+          position: relative;
+          bottom: 10px;
+          left: 5px;
+          height: 5px; }
+      body header .container .content h2 {
+        color: white; }
+  body section .container .services {
+    width: 100%;
+    min-height: 580px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+    body section .container .services .services_header {
+      flex-basis: 100%;
+      text-align: center; }
+      body section .container .services .services_header h2 {
+        display: inline-block;
+        font-size: 30px;
+        color: #868686;
+        border-bottom: 2px solid #868686; }
+        body section .container .services .services_header h2 span {
+          color: #fc635e; }
+      body section .container .services .services_header h3 {
+        display: block;
+        width: 500px;
+        margin: auto;
+        color: #868686; }
+    body section .container .services .services_content {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center; }
+      body section .container .services .services_content figure {
+        margin: 10px;
+        width: 200px;
+        text-align: center;
+        color: #868686; }
+  body section .expand {
+    min-height: 680px;
+    background-image: url(../img/bg-expand.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end; }
+    body section .expand .container .expand_content {
+      text-align: center; }
+      body section .expand .container .expand_content h1 {
+        font-size: 45px;
+        color: white; }
+        body section .expand .container .expand_content h1 span {
+          color: #fc635e; }
+  body section .our_process {
+    min-height: 840px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap; }
+    body section .our_process .our_process_header {
+      text-align: center;
+      max-width: 500px;
+      color: #868686;
+      flex-basis: 100%; }
+      body section .our_process .our_process_header h2 {
+        display: inline-block;
+        font-size: 30px;
+        color: #868686;
+        border-bottom: 2px solid #868686; }
+        body section .our_process .our_process_header h2 span {
+          color: #fc635e; }
+      body section .our_process .our_process_header p {
+        font-size: 20px;
+        max-width: 500px;
+        margin: auto; }
+    body section .our_process .our_process_steps {
+      width: 735px; }
+      body section .our_process .our_process_steps .step1 {
+        width: 160px;
+        height: 94px;
+        top: 190px;
+        position: relative;
+        border-left: 1px solid grey;
+        border-right: 3px solid #fc635e;
+        color: #868686; }
+        body section .our_process .our_process_steps .step1:before {
+          content: url(../img/elipse_red.png);
+          position: absolute;
+          top: -20px;
+          left: -20px; }
+        body section .our_process .our_process_steps .step1:after {
+          content: url(../img/forma1.png);
+          position: absolute;
+          top: -14px;
+          left: -11px; }
+        body section .our_process .our_process_steps .step1 h1 {
+          width: 100%;
+          display: inline-block;
+          position: absolute;
+          text-align: center;
+          top: -20px; }
+          body section .our_process .our_process_steps .step1 h1 span {
+            color: #fc635e; }
+        body section .our_process .our_process_steps .step1 p {
+          width: 100%;
+          display: inline-block;
+          position: absolute;
+          text-align: center;
+          top: 20px; }
+        body section .our_process .our_process_steps .step1 .rect1 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transform: rotate(60deg);
+          border-left: 3px solid #fc635e;
+          border-right: 1px solid grey;
+          z-index: -1; }
+        body section .our_process .our_process_steps .step1 .rect2 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transform: rotate(-60deg);
+          border-left: 1px solid grey;
+          border-right: 3px solid #fc635e;
+          z-index: -2; }
+      body section .our_process .our_process_steps .step_picture {
+        width: 260px;
+        height: 151px;
+        position: relative;
+        top: 265px;
+        left: 31px;
+        border-left: 1px solid grey;
+        border-right: 1px solid grey;
+        z-index: 1; }
+        body section .our_process .our_process_steps .step_picture h1 {
+          width: 100%;
+          display: inline-block;
+          position: absolute;
+          text-align: center;
+          top: -20px; }
+        body section .our_process .our_process_steps .step_picture p {
+          width: 100%;
+          display: inline-block;
+          position: absolute;
+          text-align: center;
+          top: 20px; }
+        body section .our_process .our_process_steps .step_picture .step_bg_picture {
+          width: 100%;
+          height: 200%;
+          position: absolute;
+          background-image: url(../img/step_picture.png);
+          background-position: center;
+          z-index: 11;
+          top: -75px; }
+        body section .our_process .our_process_steps .step_picture .rect1 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transform: rotate(60deg);
+          border-left: 1px solid grey;
+          border-right: 1px solid grey;
+          z-index: -1; }
+        body section .our_process .our_process_steps .step_picture .rect2 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transform: rotate(-60deg);
+          border-left: 1px solid grey;
+          border-right: 1px solid grey;
+          z-index: -2; }
+        body section .our_process .our_process_steps .step_picture .rect3 {
+          width: 100%;
+          height: 53%;
+          position: absolute;
+          transform: rotate(-60deg);
+          border-left: 1px solid grey;
+          border-right: 3px solid #fc635e;
+          z-index: 22;
+          top: 18px;
+          left: -34px; }
+      body section .our_process .our_process_steps .step2 {
+        width: 160px;
+        height: 95px;
+        position: relative;
+        left: 231px;
+        top: -14px;
+        border-left: 3px solid #fc635e;
+        border-right: 1px solid grey;
+        color: #868686; }
+        body section .our_process .our_process_steps .step2:before {
+          content: url(../img/elipse_red.png);
+          position: absolute;
+          top: -20px;
+          left: -20px; }
+        body section .our_process .our_process_steps .step2:after {
+          content: url(../img/forma2.png);
+          position: absolute;
+          top: -11px;
+          left: -13px; }
+        body section .our_process .our_process_steps .step2 h1 {
+          width: 100%;
+          display: inline-block;
+          position: absolute;
+          text-align: center;
+          top: -20px; }
+          body section .our_process .our_process_steps .step2 h1 span {
+            color: #fc635e; }
+        body section .our_process .our_process_steps .step2 p {
+          width: 100%;
+          display: inline-block;
+          position: absolute;
+          text-align: center;
+          top: 20px; }
+        body section .our_process .our_process_steps .step2 .rect1 {
+          width: 100%;
+          height: 98%;
+          position: absolute;
+          transform: rotate(60deg);
+          border-left: 3px solid #fc635e;
+          border-right: 1px solid grey;
+          z-index: -1;
+          top: 1px;
+          left: -2px; }
+        body section .our_process .our_process_steps .step2 .rect2 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transform: rotate(-60deg);
+          border-left: 1px solid grey;
+          border-right: 1px solid grey;
+          z-index: -2; }
+      body section .our_process .our_process_steps .step3 {
+        width: 160px;
+        height: 95px;
+        position: relative;
+        left: 313px;
+        top: -248px;
+        border-left: 3px solid #fc635e;
+        border-right: 3px solid #fc635e;
+        color: #868686; }
+        body section .our_process .our_process_steps .step3:before {
+          content: url(../img/elipse_red.png);
+          position: absolute;
+          top: -20px;
+          left: -20px; }
+        body section .our_process .our_process_steps .step3:after {
+          content: url(../img/forma3.png);
+          position: absolute;
+          top: -13px;
+          left: -12px; }
+        body section .our_process .our_process_steps .step3 h1 {
+          width: 100%;
+          display: inline-block;
+          position: absolute;
+          text-align: center;
+          top: -20px; }
+          body section .our_process .our_process_steps .step3 h1 span {
+            color: #fc635e; }
+        body section .our_process .our_process_steps .step3 p {
+          width: 100%;
+          display: inline-block;
+          position: absolute;
+          text-align: center;
+          top: 20px; }
+        body section .our_process .our_process_steps .step3 .rect1 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transform: rotate(60deg);
+          border-left: 3px solid #fc635e;
+          border-right: 1px solid grey;
+          z-index: -1; }
+        body section .our_process .our_process_steps .step3 .rect2 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transform: rotate(-60deg);
+          border-left: 1px solid grey;
+          border-right: 3px solid #fc635e;
+          z-index: -2; }
+      body section .our_process .our_process_steps .step4 {
+        width: 260px;
+        height: 151px;
+        position: relative;
+        left: 476px;
+        top: -248px;
+        border-left: 1px solid grey;
+        border-right: 3px solid #fc635e;
+        color: #868686; }
+        body section .our_process .our_process_steps .step4:before {
+          content: url(../img/elipse_red.png);
+          position: absolute;
+          top: -20px;
+          left: -20px; }
+        body section .our_process .our_process_steps .step4:after {
+          content: url(../img/forma4.png);
+          position: absolute;
+          top: -12px;
+          left: -13px; }
+        body section .our_process .our_process_steps .step4 h1 {
+          width: 100%;
+          display: inline-block;
+          position: absolute;
+          text-align: center;
+          top: -20px; }
+          body section .our_process .our_process_steps .step4 h1 span {
+            color: #fc635e; }
+        body section .our_process .our_process_steps .step4 p {
+          width: 99%;
+          display: inline-block;
+          position: absolute;
+          text-align: center;
+          margin-top: 8px;
+          top: 20px; }
+        body section .our_process .our_process_steps .step4 .rect1 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transform: rotate(60deg);
+          border-left: 3px solid #fc635e;
+          border-right: 3px solid #fc635e;
+          z-index: -1; }
+        body section .our_process .our_process_steps .step4 .rect2 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transform: rotate(-60deg);
+          border-left: 1px solid grey;
+          border-right: 3px solid #fc635e;
+          z-index: -2; }
+          body section .our_process .our_process_steps .step4 .rect2:before {
+            content: url(../img/elipse_red.png);
+            position: absolute;
+            top: 130px;
+            left: -20px; }
+          body section .our_process .our_process_steps .step4 .rect2:after {
+            content: url(../img/forma5.png);
+            position: absolute;
+            top: 140px;
+            left: -10px; }
+    body section .our_process .our_process_steps_responsive {
+      display: none; }
+  body section .section_we_do {
+    min-height: 575px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    color: #868686; }
+    body section .section_we_do .container .we_do_header {
+      flex-basis: 100%;
+      text-align: center; }
+      body section .section_we_do .container .we_do_header h2 {
+        border-bottom: 1px solid grey;
+        display: inline-block;
+        padding-bottom: 5px; }
+        body section .section_we_do .container .we_do_header h2 span {
+          color: #fc635e; }
+    body section .section_we_do .container .we_do_content {
+      display: flex;
+      justify-content: space-around;
+      flex-flow: row wrap; }
+      body section .section_we_do .container .we_do_content .we_do_content_text {
+        flex-basis: 30%; }
+        body section .section_we_do .container .we_do_content .we_do_content_text h2:before {
+          content: '';
+          border-right: 13px solid #fc635e;
+          position: relative;
+          margin-right: 5px; }
+      body section .section_we_do .container .we_do_content .we_do_content_pictures {
+        flex-basis: 520px;
+        position: relative;
+        height: 308px; }
+        body section .section_we_do .container .we_do_content .we_do_content_pictures #display {
+          position: absolute;
+          left: 80px; }
+        body section .section_we_do .container .we_do_content .we_do_content_pictures #mac {
+          position: absolute;
+          bottom: 0; }
+        body section .section_we_do .container .we_do_content .we_do_content_pictures #ipad {
+          position: absolute;
+          bottom: 0;
+          left: 380px; }
+  body section .advertising {
+    min-height: 575px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    color: #868686; }
+    body section .advertising .advertising_picture {
+      flex-basis: 40%; }
+    body section .advertising .advertising_text {
+      flex-basis: 30%;
+      text-align: right; }
+      body section .advertising .advertising_text h2:after {
+        content: '';
+        border-right: 13px solid #fc635e;
+        position: relative;
+        margin-left: 5px; }
+  body section .marketing {
+    min-height: 575px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-flow: row wrap;
+    color: #868686; }
+    body section .marketing .marketing_text {
+      flex-basis: 30%; }
+      body section .marketing .marketing_text h2:before {
+        content: '';
+        border-right: 13px solid #fc635e;
+        position: relative;
+        margin-right: 5px; }
+    body section .marketing .marketing_pictures {
+      flex-basis: 40%; }
+  body section .portfolio {
+    min-height: 860px;
+    color: #868686; }
+    body section .portfolio .portfolio_header {
+      text-align: center;
+      flex-basis: 100%; }
+    body section .portfolio .portfolio_content {
+      flex-basis: 100%;
+      text-align: center; }
+      body section .portfolio .portfolio_content .portfolio_content_nav {
+        padding: 10px 0;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey; }
+        body section .portfolio .portfolio_content .portfolio_content_nav ul {
+          display: flex;
+          justify-content: space-around;
+          flex-flow: row wrap;
+          list-style: none; }
+          body section .portfolio .portfolio_content .portfolio_content_nav ul li a {
+            text-decoration: none;
+            color: #fc635e; }
+            body section .portfolio .portfolio_content .portfolio_content_nav ul li a:hover {
+              color: grey; }
+      body section .portfolio .portfolio_content .portfolio_content_pictures {
+        padding: 25px 0;
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap; }
+        body section .portfolio .portfolio_content .portfolio_content_pictures .portfolio_container1 {
+          width: 100%;
+          display: flex; }
+          body section .portfolio .portfolio_content .portfolio_content_pictures .portfolio_container1 .portfolio_picture1 {
+            flex-basis: 49%;
+            margin: 5px;
+            height: 198px;
+            background-image: url(../img/portfolio_picture1.png);
+            background-size: cover;
+            background-position: center; }
+          body section .portfolio .portfolio_content .portfolio_content_pictures .portfolio_container1 .portfolio_picture2 {
+            flex-basis: 24%;
+            margin: 5px;
+            height: 198px;
+            background-image: url(../img/portfolio_picture2.png);
+            background-size: cover;
+            background-position: center; }
+          body section .portfolio .portfolio_content .portfolio_content_pictures .portfolio_container1 .portfolio_picture3 {
+            flex-basis: 24%;
+            margin: 5px;
+            height: 198px;
+            background-image: url(../img/portfolio_picture3.png);
+            background-size: cover;
+            background-position: center; }
+        body section .portfolio .portfolio_content .portfolio_content_pictures .portfolio_container2 {
+          width: 100%;
+          display: flex; }
+          body section .portfolio .portfolio_content .portfolio_content_pictures .portfolio_container2 .portfolio_picture4 {
+            flex-basis: 24%;
+            margin: 5px;
+            height: 198px;
+            background-image: url(../img/portfolio_picture4.png);
+            background-size: cover;
+            background-position: center; }
+          body section .portfolio .portfolio_content .portfolio_content_pictures .portfolio_container2 .portfolio_picture5 {
+            flex-basis: 24%;
+            margin: 5px;
+            height: 198px;
+            background-image: url(../img/portfolio_picture5.png);
+            background-size: cover;
+            background-position: center; }
+          body section .portfolio .portfolio_content .portfolio_content_pictures .portfolio_container2 .portfolio_picture6 {
+            flex-basis: 49%;
+            margin: 5px;
+            height: 198px;
+            background-image: url(../img/portfolio_picture6.png);
+            background-size: cover;
+            background-position: center; }
+  body section .our_team {
+    min-height: 560px;
+    background-color: #f2f2f2;
+    color: #868686; }
+    body section .our_team .our_team_header {
+      flex-basis: 100%;
+      text-align: center; }
+      body section .our_team .our_team_header h2 {
+        padding-bottom: 5px;
+        border-bottom: 1px solid grey;
+        display: inline-block; }
+      body section .our_team .our_team_header span {
+        color: #fc635e; }
+    body section .our_team .owl-carousel .item figure {
+      margin: auto;
+      max-width: 190px;
+      text-align: center; }
+      body section .our_team .owl-carousel .item figure figcaption h2 span {
+        color: #fc635e; }
+      body section .our_team .owl-carousel .item figure figcaption .social_container .social {
+        border-radius: 50%; }
+        body section .our_team .owl-carousel .item figure figcaption .social_container .social:hover {
+          background-color: #fc635e;
+          cursor: pointer; }
+        body section .our_team .owl-carousel .item figure figcaption .social_container .social a {
+          display: block;
+          width: 30px;
+          height: 40px;
+          border-radius: 50%; }
+  body section .quote {
+    min-height: 560px;
+    color: #868686; }
+    body section .quote .quote_icon {
+      width: 75px;
+      margin: auto;
+      padding-top: 50px; }
+    body section .quote .quote_content .container .owl-carousel .item .quote_item_container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
+      margin: 40px 0; }
+      body section .quote .quote_content .container .owl-carousel .item .quote_item_container .quote_content_text {
+        display: block;
+        width: 30%; }
+      body section .quote .quote_content .container .owl-carousel .item .quote_item_container .quote_content_picture {
+        padding: 20px 0; }
+      body section .quote .quote_content .container .owl-carousel .item .quote_item_container .quote_content_name {
+        width: 30%;
+        text-align: right; }
+        body section .quote .quote_content .container .owl-carousel .item .quote_item_container .quote_content_name h2 span {
+          color: #fc635e; }
+  body footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-image: url(../img/bg-footer.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; }
+
+.logo:hover {
+  cursor: pointer; }
+
+.button_transparent {
+  width: 170px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fc635e;
+  outline: none;
+  font-size: 18px; }
+  .button_transparent:hover {
+    border-color: #fc635e; }
+
+.button_base {
+  width: 185px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #fc635e;
+  color: white;
+  outline: none;
+  font-size: 18px; }
+  .button_base:hover {
+    background-color: grey;
+    border-color: black;
+    cursor: pointer; }
+
+.navIcon {
+  align-self: flex-end;
+  text-align: center;
+  flex-basis: 100%;
+  padding-bottom: 20px;
+  color: #fc635e; }
+  .navIcon i:hover {
+    color: white;
+    cursor: pointer; }
+
+.navIcon_reverse {
+  align-self: flex-end;
+  text-align: center;
+  flex-basis: 100%;
+  padding-bottom: 20px;
+  color: #fc635e; }
+  .navIcon_reverse i:hover {
+    color: black;
+    cursor: pointer; }
+
+.container {
+  max-width: 1000px;
+  padding: 0 20px;
+  min-height: inherit;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: flex-end; }
+
+.social_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
+.social {
+  width: 40px;
+  height: 40px; }
+
+.twitter {
+  background-image: url(../img/social1.png);
+  background-position: center;
+  background-size: 100%; }
+
+.facebook {
+  background-image: url(../img/social2.png);
+  background-position: center;
+  background-size: 100%; }
+
+.linked {
+  background-image: url(../img/social3.png);
+  background-position: center;
+  background-size: 100%; }
+
+.owl-theme .owl-nav [class*='owl-'] {
+  width: 30px;
+  height: 30px;
+  padding-top: 14px;
+  padding-bottom: 0;
+  border-radius: 50%;
+  background-color: #fc635e; }
+
+.anchor {
+  position: absolute;
+  margin-top: -70px; }
+
+@media all and (max-width: 1000px) {
+  body header nav {
+    justify-content: space-between; }
+    body header nav .logo {
+      float: left;
+      margin-left: 10%; }
+    body header nav #humburgerIcon {
+      width: 50px;
+      height: 35px;
+      margin-right: 50px;
+      display: block; }
+    body header nav ul {
+      min-width: 40px;
+      padding: 0;
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 70px;
+      float: right;
+      margin: 0 0 10% 0;
+      background-color: #252121; }
+      body header nav ul .invisibleList {
+        top: 10px; }
+      body header nav ul #visibleList {
+        display: block;
+        float: right;
+        width: 50px;
+        height: 40px;
+        padding: 10px;
+        margin: 0; }
+  body header .container .content h1 {
+    font-size: 35px; }
+  body header .container .content h2 {
+    font-size: 20px; }
+  body section .container .services .services_content figure {
+    flex-basis: 40%; }
+  body section .section_we_do .container .we_do_content .we_do_content_text {
+    flex-basis: 70%;
+    text-align: center;
+    padding: 10px; }
+  body section .advertising .container .advertising_text {
+    flex-basis: 70%;
+    text-align: center;
+    padding: 10px; }
+  body section .advertising .container .advertising_picture {
+    padding-top: 15px; }
+  body section .marketing .marketing_text {
+    flex-basis: 70%;
+    text-align: center;
+    padding: 10px; }
+  .navIcon_reverse {
+    padding-top: 20px; } }
+
+@media all and (max-width: 800px) {
+  body header .container .content h1 {
+    font-size: 35px; }
+    body header .container .content h1:before {
+      content: none; }
+    body header .container .content h1:after {
+      content: none; }
+  body header .container .content h2 {
+    font-size: 20px; }
+  body section .our_process .container .our_process_steps {
+    display: none; }
+  body section .our_process .container .our_process_steps_responsive {
+    display: block;
+    padding: 50px 0;
+    width: 100%;
+    height: 600px; }
+    body section .our_process .container .our_process_steps_responsive .step1 {
+      width: 200px;
+      height: 100px;
+      left: 50%;
+      margin-left: -100px;
+      position: relative;
+      border: 3px solid #fc635e;
+      border-bottom: none;
+      color: #868686; }
+      body section .our_process .container .our_process_steps_responsive .step1:before {
+        content: url(../img/elipse_red.png);
+        position: absolute;
+        top: -20px;
+        left: -20px; }
+      body section .our_process .container .our_process_steps_responsive .step1:after {
+        content: url(../img/forma1.png);
+        position: absolute;
+        top: -14px;
+        left: -11px; }
+      body section .our_process .container .our_process_steps_responsive .step1 h1 {
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: -20px; }
+        body section .our_process .container .our_process_steps_responsive .step1 h1 span {
+          color: #fc635e; }
+      body section .our_process .container .our_process_steps_responsive .step1 p {
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: 20px; }
+    body section .our_process .container .our_process_steps_responsive .step_picture {
+      width: 260px;
+      height: 150px;
+      position: relative;
+      left: 50%;
+      margin-left: -130px;
+      border: 3px solid #fc635e;
+      overflow: hidden;
+      z-index: 1; }
+      body section .our_process .container .our_process_steps_responsive .step_picture h1 {
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: -20px; }
+      body section .our_process .container .our_process_steps_responsive .step_picture p {
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: 20px; }
+      body section .our_process .container .our_process_steps_responsive .step_picture .step_bg_picture {
+        width: 100%;
+        height: 200%;
+        position: absolute;
+        background-image: url(../img/step_picture.png);
+        background-position: center;
+        z-index: -12;
+        top: -75px; }
+    body section .our_process .container .our_process_steps_responsive .step2 {
+      width: 200px;
+      height: 100px;
+      position: relative;
+      left: 50%;
+      margin-left: -100px;
+      border: 3px solid #fc635e;
+      border-top: none;
+      border-bottom: none;
+      color: #868686; }
+      body section .our_process .container .our_process_steps_responsive .step2:before {
+        content: url(../img/elipse_red.png);
+        position: absolute;
+        z-index: 11;
+        top: -20px;
+        left: -20px; }
+      body section .our_process .container .our_process_steps_responsive .step2:after {
+        content: url(../img/forma2.png);
+        position: absolute;
+        z-index: 12;
+        top: -11px;
+        left: -13px; }
+      body section .our_process .container .our_process_steps_responsive .step2 h1 {
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: -20px; }
+        body section .our_process .container .our_process_steps_responsive .step2 h1 span {
+          color: #fc635e; }
+      body section .our_process .container .our_process_steps_responsive .step2 p {
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: 20px; }
+    body section .our_process .container .our_process_steps_responsive .step3 {
+      width: 200px;
+      height: 95px;
+      position: relative;
+      left: 50%;
+      margin-left: -100px;
+      border: 3px solid #fc635e;
+      border-bottom: none;
+      color: #868686; }
+      body section .our_process .container .our_process_steps_responsive .step3:before {
+        content: url(../img/elipse_red.png);
+        position: absolute;
+        top: -20px;
+        left: -20px; }
+      body section .our_process .container .our_process_steps_responsive .step3:after {
+        content: url(../img/forma3.png);
+        position: absolute;
+        top: -13px;
+        left: -12px; }
+      body section .our_process .container .our_process_steps_responsive .step3 h1 {
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: -20px; }
+        body section .our_process .container .our_process_steps_responsive .step3 h1 span {
+          color: #fc635e; }
+      body section .our_process .container .our_process_steps_responsive .step3 p {
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: 20px; }
+    body section .our_process .container .our_process_steps_responsive .step4 {
+      width: 300px;
+      height: 151px;
+      position: relative;
+      left: 50%;
+      margin-left: -150px;
+      border: 3px solid #fc635e;
+      color: #868686; }
+      body section .our_process .container .our_process_steps_responsive .step4:before {
+        content: url(../img/elipse_red.png);
+        position: absolute;
+        top: -20px;
+        left: -20px; }
+      body section .our_process .container .our_process_steps_responsive .step4:after {
+        content: url(../img/forma4.png);
+        position: absolute;
+        top: -12px;
+        left: -13px; }
+      body section .our_process .container .our_process_steps_responsive .step4 h1 {
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: -20px; }
+        body section .our_process .container .our_process_steps_responsive .step4 h1 span {
+          color: #fc635e; }
+      body section .our_process .container .our_process_steps_responsive .step4 p {
+        width: 99%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        margin-top: 8px;
+        top: 20px; }
+      body section .our_process .container .our_process_steps_responsive .step4:before {
+        content: url(../img/elipse_red.png);
+        position: absolute;
+        top: -20px;
+        left: -20px; }
+      body section .our_process .container .our_process_steps_responsive .step4:after {
+        content: url(../img/forma5.png);
+        position: absolute;
+        top: -11px;
+        left: -10px; } }
+
+@media all and (max-width: 600px) {
+  body section .container .services .services_header h2 {
+    font-size: 23px; }
+  body section .container .services .services_header h3 {
+    font-size: 16px;
+    width: 310px; }
+  body section .section_we_do .container .we_do_content .we_do_content_pictures {
+    flex-basis: 340px; }
+    body section .section_we_do .container .we_do_content .we_do_content_pictures #display {
+      left: 50%;
+      margin-left: -150px;
+      width: 300px;
+      bottom: 0; }
+    body section .section_we_do .container .we_do_content .we_do_content_pictures #mac {
+      left: 0;
+      width: 200px; }
+    body section .section_we_do .container .we_do_content .we_do_content_pictures #ipad {
+      left: 210px;
+      width: 90px; }
+  body section .advertising .container .advertising_picture img {
+    width: 300px; }
+  body section .marketing .container .marketing_pictures img {
+    width: 300px; }
+  body section .quote .quote_content .container .owl-carousel .item .quote_item_container .quote_content_text {
+    width: 80%;
+    text-align: center; }
+  body section .quote .quote_content .container .owl-carousel .item .quote_item_container .quote_content_name {
+    width: 80%;
+    text-align: center; } }
+
+.container {
+  padding: 0 10px; }
